@@ -8,7 +8,8 @@ from csv import DictReader
 
 
 def read_csv_rows(filename: str) -> list[dict[str, str]]:
-    """Function pulls raw data and assigns it to a list of dictionaries consisting of strings."""
+    """Function pulls raw data and assigns it to a list of dictionaries consisting of
+    strings."""
     return []
 
 
@@ -18,5 +19,6 @@ def column_values(table: list[dict[str, str]], column: str) -> list[str]:
 
 
 def columnar(table: list[dict[str, str]]) -> dict[str, list[str]]:
-    """Function uses the column_values function to reformat ALL data into a format similar to that of a table."""
+    """Function uses the column_values function to reformat ALL data into a format
+    similar to that of a table."""
     return {}
